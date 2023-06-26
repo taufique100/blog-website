@@ -1,0 +1,103 @@
+@import "https://fonts.googleapis.com/css?family=Roboto:300,400,500";
+* {
+  margin: 0px;
+  /* box-sizing: border-box; */
+}
+
+header {
+  background-color: #263d36;
+  background-image: url(background.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  padding: 12vw 2em;
+  line-height: 1.2;
+  text-align: center;
+  max-width: none;
+  /* height: 150px; */
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+header img {
+  display: block;
+  height: 120px;
+  width: 120px;
+  margin: auto auto;
+}
+
+header a {
+  border: 1px solid #e81c4f;
+  padding: 10px 20px;
+  border-radius: 19px;
+  /* margin-top: 89px; */
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-size: small;
+}
+
+header a:hover {
+  background-color: #e81c4f;
+}
+
+header h1 {
+  color: white;
+  font-weight: lighter;
+  margin: 38px 0px;
+}
+
+section{
+  margin: 50px auto;
+  max-width:50em;
+  padding: 0 10px;
+  background-color:rgb(255, 251, 251);
+}
+.introduction{
+  margin: 1em 0;
+}
+
+.introduction p{
+  padding-top: 1em;
+}
+
+.section-1{
+  margin: 1em 0;
+}
+.section-1 h2{
+  margin: 1em 0;
+  padding-top: 1em;
+}
+.section-1 p{
+  padding-top: 1em;
+}
+
+.section-2{
+  margin: 1em 0;
+}
+.section-2 h2{
+  margin: 1em 0;
+  padding-top: 1em;
+}
+
+.section-2 pre{
+  background-color: #f5f7f9;
+  color: #797c82;
+  padding: 1em;
+  white-space: pre-wrap;
+  border-bottom: 1px solid #d8dee9;
+  overflow: auto;
+  border-left: 2px solid #69c;
+  font-family: monospace;
+  margin: 1em 0;
+}
+
+.third-section{
+  margin: 1em 0;
+}
+
+.third-section h2{
+  margin: 1em 0;
+  padding-top: 1em;
+}
+.third-section p{
+  padding-top: 1em;
+}
